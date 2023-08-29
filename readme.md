@@ -4,7 +4,7 @@ Welcome to the Speech To Text Benchmark project! This initiative empowers you to
 
 ## Installation and Configuration Guide
 
-1. **Setting up Google Cloud Storage**: Begin by creating a new storage bucket on [Google Cloud Storage](https://pantheon.corp.google.com/storage/browser). Then, populate the bucket with the contents of the 'storage' folder.
+1. **Setting up Google Cloud Storage**: Begin by creating a new storage bucket on [Google Cloud Storage](https://pantheon.corp.google.com/storage/browser). Then, populate the bucket with the audio files and the ground truth transcription by following the folder structure in the `storage` folder of this repository.
 
 2. **Google Workbench Setup**: Create a Google Workbench within your Google Cloud Project. Activate the [Workbench API](https://pantheon.corp.google.com/vertex-ai/workbench/user-managed). Next, configure the Workbench with the following parameters:
 
